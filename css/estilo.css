@@ -30,15 +30,23 @@ main{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
+   
+    /*-------------------*/
     border-radius: 20px;
     background-color: white;
     width: 250px;
     height: 500px;
+   
     /*tudo que tiver fora da borda fica escondido*/
     overflow: hidden;
+   
     /*sombra enm volta */
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.555);
+   
+    /* fazer uma animação */
+    transition: widht 0.3s, height 0.3s;
+    transition-timing-function: ease;
+
 
  }
  section#login > div#imagen{
@@ -47,6 +55,7 @@ main{
     height: 200px;
 
     /*arrumar imagem dentro do conteiner*/
+
     background-size: cover;
  }
  section#login > div#formulario {
