@@ -14,7 +14,7 @@ Desktop: 992px até 1200px.<br>
 Grandes telas: acima de 1200px.</p>
 
 <div>
-<img width="400px" height= "500px" src="imge/fotoCelular" ><br>
+<img width="400px" height= "500px" src="https://github.com/EderDSouza/tela-Login/tree/main/image" ><br>
 <img><br>
 <img>
 </div>
