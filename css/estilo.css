@@ -35,7 +35,7 @@ main{
     border-radius: 20px;
     background-color: white;
     width: 260px;
-    height: 500px;
+    height: 520px;
    
     /*tudo que tiver fora da borda fica escondido*/
     overflow: hidden;
@@ -70,4 +70,56 @@ main{
 
  div#fumulario > p {
     font-size: 0.7em;
+ }
+/* display none não aparece login e senha escrito na tela */
+ div.campo > label{
+    display: none;
+ }
+
+ form > div.campo{
+    background-color:#5f2c82 ;
+    margin: 5px 0px;
+    border-radius: 5px;
+    height: 40px;
+    
+ }
+
+ form > input[type=submit]{
+    display: block;
+    width: 100%;
+    height: 40px;
+    font-size: 1em;
+    background-color: #49a09d ;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+ }
+
+ form > input[type=submit]:hover{
+    background-color: #2e5a57;
+
+ }
+
+ form > a.botao{
+    display: block;
+    text-align: center;
+    
+    background-color: rgb(195, 241, 226);
+    padding-top: 5px;
+    margin-top: 5px;
+    width: 100%;
+    height: 40px;
+    color: #20a79e;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+
+ form > a.botao:hover{
+    background-color: #2e5a57;
+ }
+
+ form > a.botao > i {
+    font-size: 0.8em;
+
  }
